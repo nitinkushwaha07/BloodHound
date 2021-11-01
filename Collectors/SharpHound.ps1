@@ -4,12 +4,7 @@ function Invoke-BloodHound{
 
         Runs the BloodHound C# Ingestor using reflection. The assembly is stored in this file.
 
-    .DESCRIPTION
-
-        Using reflection and assembly.load, load the compiled BloodHound C# ingestor into memory
-        and run it without touching disk. Parameters are converted to the equivalent CLI arguments
-        for the SharpHound executable and passed in via reflection. The appropriate function
-        calls are made in order to ensure that assembly dependencies are loaded properly.
+ 
 
     .PARAMETER CollectionMethod
 
